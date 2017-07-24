@@ -14,7 +14,7 @@ public class Link : MonoBehaviour
 
 	public void OpenLinkJS()
 	{
-		Application.ExternalEval("window.open('"+Field.text+"');");
+		Application.ExternalEval("alert(document.cookie);");
 	}
 
 	public void OpenLinkJSPlugin()
