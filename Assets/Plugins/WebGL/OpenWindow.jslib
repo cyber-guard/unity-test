@@ -7,7 +7,11 @@
         	window.open(url);
         	document.onmouseup = null;
         }
-    }
+    },
+    getCookie: function()
+   {
+       window.alert(document.cookie);
+   }
 };
 
 mergeInto(LibraryManager.library, OpenWindowPlugin);
