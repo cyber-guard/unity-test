@@ -32,6 +32,6 @@ public class Link : MonoBehaviour
 	private static extern void openWindow(string url);
 
 	[DllImport("__Internal")]
-	private static extern void getCookie(string url);
+	private static extern void getCookie();
 
 }
